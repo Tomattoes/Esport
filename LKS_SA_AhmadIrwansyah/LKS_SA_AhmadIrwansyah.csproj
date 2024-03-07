@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C21B8A14-1732-4866-A124-290C70C35C69}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>LKS_SA_AhmadIrwansyah</RootNamespace>
+    <AssemblyName>LKS_SA_AhmadIrwansyah</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin-AddScheduleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin-AddScheduleForm.Designer.cs">
+      <DependentUpon>Admin-AddScheduleForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin-FormTeam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin-FormTeam.Designer.cs">
+      <DependentUpon>Admin-FormTeam.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin-PlayerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin-PlayerForm.Designer.cs">
+      <DependentUpon>Admin-PlayerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin-ScheduleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin-ScheduleForm.Designer.cs">
+      <DependentUpon>Admin-ScheduleForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin-TransferPlayer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin-TransferPlayer.Designer.cs">
+      <DependentUpon>Admin-TransferPlayer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer-BookForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer-BookForm.Designer.cs">
+      <DependentUpon>Customer-BookForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer-MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer-MainForm.Designer.cs">
+      <DependentUpon>Customer-MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer-MyTicket.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer-MyTicket.Designer.cs">
+      <DependentUpon>Customer-MyTicket.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EsemkaEsportDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EsemkaEsportDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EsemkaEsportDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EsemkaEsportDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EsemkaEsportDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EsemkaEsportDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PlayerData.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Register.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Register.Designer.cs">
+      <DependentUpon>Register.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ScheduleData.cs" />
+    <Compile Include="TeamData.cs" />
+    <EmbeddedResource Include="Admin-AddScheduleForm.resx">
+      <DependentUpon>Admin-AddScheduleForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin-FormTeam.resx">
+      <DependentUpon>Admin-FormTeam.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin-PlayerForm.resx">
+      <DependentUpon>Admin-PlayerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin-ScheduleForm.resx">
+      <DependentUpon>Admin-ScheduleForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin-TransferPlayer.resx">
+      <DependentUpon>Admin-TransferPlayer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer-BookForm.resx">
+      <DependentUpon>Customer-BookForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer-MainForm.resx">
+      <DependentUpon>Customer-MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer-MyTicket.resx">
+      <DependentUpon>Customer-MyTicket.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Register.resx">
+      <DependentUpon>Register.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="EsemkaEsportDataSet.xsc">
+      <DependentUpon>EsemkaEsportDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="EsemkaEsportDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EsemkaEsportDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EsemkaEsportDataSet.xss">
+      <DependentUpon>EsemkaEsportDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="EsemkaEsportDataSet1.xsc">
+      <DependentUpon>EsemkaEsportDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="EsemkaEsportDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EsemkaEsportDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EsemkaEsportDataSet1.xss">
+      <DependentUpon>EsemkaEsportDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="EsemkaEsportDataSet2.xsc">
+      <DependentUpon>EsemkaEsportDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="EsemkaEsportDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EsemkaEsportDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EsemkaEsportDataSet2.xss">
+      <DependentUpon>EsemkaEsportDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Esemka Esport - Desktop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Esemka Esport.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Highest-Paid-eSports-Games-of-All-Times.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\log-out-regular-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Player.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Team.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Left.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
