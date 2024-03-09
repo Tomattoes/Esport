@@ -2,33 +2,28 @@
 using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Data;
-using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace LKS_SA_AhmadIrwansyah
 {
-    internal class TeamData
+    internal class TPlayer
     {
-
-        public int Id { set; get; }
-        public string Name { set; get; }
-        public string Company { set; get; }
+        public string Nickname { set; get; }
 
         SqlConnection con = new SqlConnection(@"Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=EsemkaEsport;Data Source=ANDIWS\SQLEXPRESS");
 
-
-        public List<TeamData> TeamListData()
+        public List<TPlayer> TPlayerListData()
         {
-            List<TeamData> listdata = new List<TeamData>();
+            List<TPlayer> listdata = new List<TPlayer>();
 
             if (con.State != ConnectionState.Open)
             {
                 try
                 {
                     con.Open();
-                    string selectdata = "select * from team";
+                    string selectdata = "select id, nick_name from player where id NOT IN (select player_id from team_detail)";
 
                     using (SqlCommand cmd = new SqlCommand(selectdata, con))
                     {
@@ -36,10 +31,8 @@ namespace LKS_SA_AhmadIrwansyah
 
                         while (reader.Read())
                         {
-                            TeamData sd = new TeamData();
-                            sd.Id = (int)reader["id"];
-                            sd.Name = reader["team_name"].ToString();
-                            sd.Company = reader["company_name"].ToString();
+                            TPlayer sd = new TPlayer();
+                            sd.Nickname = reader["nick_name"].ToString();
 
                             listdata.Add(sd);
 

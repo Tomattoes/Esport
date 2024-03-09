@@ -66,7 +66,8 @@ namespace LKS_SA_AhmadIrwansyah
                     try
                     {
                         con.Open();
-                        string selectData = "SELECT * FROM pengguna WHERE username = @username " +
+
+                        string selectData = "SELECT Role FROM pengguna WHERE username = @username " +
                                                "AND password = @password";
 
                         using (SqlCommand cmd = new SqlCommand(selectData, con))
@@ -74,24 +75,36 @@ namespace LKS_SA_AhmadIrwansyah
                             cmd.Parameters.AddWithValue("@username", textBox_Username.Text.Trim());
                             cmd.Parameters.AddWithValue("@password", textBox_Password.Text.Trim());
 
-                            SqlDataAdapter adapter = new SqlDataAdapter(cmd);
-                            DataTable table = new DataTable();
-                            adapter.Fill(table);
-
-                            if (table.Rows.Count >= 1)
+                            using (SqlDataReader reader = cmd.ExecuteReader())
                             {
-                                MessageBox.Show("Login successfully!"
-                                    , "Information Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                                if (reader.Read())
+                                {
+                                    bool role = Convert.ToBoolean(reader["Role"]);
+                                    if (role == false)
+                                    {
+                                        MessageBox.Show("Login successfully!"
+                                   , "Information Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-                                Admin_ScheduleForm mForm = new Admin_ScheduleForm();
-                                mForm.Show();
-                                this.Hide();
-                            }
-                            else
-                            {
-                                MessageBox.Show("Username atau Password salah!", "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                                textBox_Username.Text = "";
-                                textBox_Password.Text = "";
+                                        Admin_ScheduleForm mForm = new Admin_ScheduleForm();
+                                        mForm.Show();
+                                        this.Hide();
+                                    }
+                                    else
+                                    {
+                                        MessageBox.Show("Login successfully!"
+                                   , "Information Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                                        Customer_MainForm mForm = new Customer_MainForm();
+                                        mForm.Show();
+                                        this.Hide();
+                                    }
+                                }
+                                else
+                                {
+                                    MessageBox.Show("Username atau Password salah!", "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                                    textBox_Username.Text = "";
+                                    textBox_Password.Text = "";
+                                }
                             }
                         }
                     }
@@ -107,5 +120,16 @@ namespace LKS_SA_AhmadIrwansyah
             }
         }
 
+        private void comboBox_role_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void LoginForm_Load(object sender, EventArgs e)
+        {
+            // TODO: This line of code loads data into the 'esemkaEsportDataSet3.pengguna' table. You can move, or remove it, as needed.
+            this.penggunaTableAdapter.Fill(this.esemkaEsportDataSet3.pengguna);
+
+        }
     }
 }

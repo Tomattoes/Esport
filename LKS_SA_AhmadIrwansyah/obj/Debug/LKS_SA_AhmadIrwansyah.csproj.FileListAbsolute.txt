@@ -11,9 +11,9 @@ C:\Users\zenbook\source\repos\LKS_SA_AhmadIrwansyah\LKS_SA_AhmadIrwansyah\obj\De
 C:\Users\zenbook\source\repos\LKS_SA_AhmadIrwansyah\LKS_SA_AhmadIrwansyah\obj\Debug\LKS_SA_AhmadIrwansyah.pdb
 C:\Users\zenbook\source\repos\LKS_SA_AhmadIrwansyah\LKS_SA_AhmadIrwansyah\obj\Debug\LKS_SA_AhmadIrwansyah.Customer_MainForm.resources
 C:\Users\zenbook\source\repos\LKS_SA_AhmadIrwansyah\LKS_SA_AhmadIrwansyah\obj\Debug\LKS_SA_AhmadIrwansyah.Admin_ScheduleForm.resources
-C:\Users\zenbook\source\repos\LKS_SA_AhmadIrwansyah\LKS_SA_AhmadIrwansyah\obj\Debug\LKS_SA_AhmadIrwansyah.BookForm.resources
 C:\Users\zenbook\source\repos\LKS_SA_AhmadIrwansyah\LKS_SA_AhmadIrwansyah\obj\Debug\LKS_SA_AhmadIrwansyah.Customer_MyTicket.resources
 C:\Users\zenbook\source\repos\LKS_SA_AhmadIrwansyah\LKS_SA_AhmadIrwansyah\obj\Debug\LKS_SA_AhmadIrwansyah.Admin_FormTeam.resources
 C:\Users\zenbook\source\repos\LKS_SA_AhmadIrwansyah\LKS_SA_AhmadIrwansyah\obj\Debug\LKS_SA_AhmadIrwansyah.Admin_PlayerForm.resources
 C:\Users\zenbook\source\repos\LKS_SA_AhmadIrwansyah\LKS_SA_AhmadIrwansyah\obj\Debug\LKS_SA_AhmadIrwansyah.Admin_TransferPlayer.resources
 C:\Users\zenbook\source\repos\LKS_SA_AhmadIrwansyah\LKS_SA_AhmadIrwansyah\obj\Debug\LKS_SA_AhmadIrwansyah.Admin_AddScheduleForm.resources
+C:\Users\zenbook\source\repos\LKS_SA_AhmadIrwansyah\LKS_SA_AhmadIrwansyah\obj\Debug\LKS_SA_AhmadIrwansyah.Customer_BookForm.resources

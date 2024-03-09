@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace LKS_SA_AhmadIrwansyah
 {
-    public partial class BookForm : Form
+    public partial class Customer_BookForm : Form
     {
-        public BookForm()
+        public Customer_BookForm()
         {
             InitializeComponent();
         }

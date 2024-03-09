@@ -20,17 +20,17 @@ namespace LKS_SA_AhmadIrwansyah {
     [global::System.ComponentModel.DesignerCategoryAttribute("code")]
     [global::System.ComponentModel.ToolboxItem(true)]
     [global::System.Xml.Serialization.XmlSchemaProviderAttribute("GetTypedDataSetSchema")]
-    [global::System.Xml.Serialization.XmlRootAttribute("EsemkaEsportDataSet2")]
+    [global::System.Xml.Serialization.XmlRootAttribute("EsemkaEsportDataSet6")]
     [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.DataSet")]
-    public partial class EsemkaEsportDataSet2 : global::System.Data.DataSet {
+    public partial class EsemkaEsportDataSet6 : global::System.Data.DataSet {
         
-        private teamDataTable tableteam;
+        private playerDataTable tableplayer;
         
         private global::System.Data.SchemaSerializationMode _schemaSerializationMode = global::System.Data.SchemaSerializationMode.IncludeSchema;
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        public EsemkaEsportDataSet2() {
+        public EsemkaEsportDataSet6() {
             this.BeginInit();
             this.InitClass();
             global::System.ComponentModel.CollectionChangeEventHandler schemaChangedHandler = new global::System.ComponentModel.CollectionChangeEventHandler(this.SchemaChanged);
@@ -41,7 +41,7 @@ namespace LKS_SA_AhmadIrwansyah {
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        protected EsemkaEsportDataSet2(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
+        protected EsemkaEsportDataSet6(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
                 base(info, context, false) {
             if ((this.IsBinarySerialized(info, context) == true)) {
                 this.InitVars(false);
@@ -54,8 +54,8 @@ namespace LKS_SA_AhmadIrwansyah {
             if ((this.DetermineSchemaSerializationMode(info, context) == global::System.Data.SchemaSerializationMode.IncludeSchema)) {
                 global::System.Data.DataSet ds = new global::System.Data.DataSet();
                 ds.ReadXmlSchema(new global::System.Xml.XmlTextReader(new global::System.IO.StringReader(strSchema)));
-                if ((ds.Tables["team"] != null)) {
-                    base.Tables.Add(new teamDataTable(ds.Tables["team"]));
+                if ((ds.Tables["player"] != null)) {
+                    base.Tables.Add(new playerDataTable(ds.Tables["player"]));
                 }
                 this.DataSetName = ds.DataSetName;
                 this.Prefix = ds.Prefix;
@@ -79,9 +79,9 @@ namespace LKS_SA_AhmadIrwansyah {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Browsable(false)]
         [global::System.ComponentModel.DesignerSerializationVisibility(global::System.ComponentModel.DesignerSerializationVisibility.Content)]
-        public teamDataTable team {
+        public playerDataTable player {
             get {
-                return this.tableteam;
+                return this.tableplayer;
             }
         }
         
@@ -127,7 +127,7 @@ namespace LKS_SA_AhmadIrwansyah {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         public override global::System.Data.DataSet Clone() {
-            EsemkaEsportDataSet2 cln = ((EsemkaEsportDataSet2)(base.Clone()));
+            EsemkaEsportDataSet6 cln = ((EsemkaEsportDataSet6)(base.Clone()));
             cln.InitVars();
             cln.SchemaSerializationMode = this.SchemaSerializationMode;
             return cln;
@@ -152,8 +152,8 @@ namespace LKS_SA_AhmadIrwansyah {
                 this.Reset();
                 global::System.Data.DataSet ds = new global::System.Data.DataSet();
                 ds.ReadXml(reader);
-                if ((ds.Tables["team"] != null)) {
-                    base.Tables.Add(new teamDataTable(ds.Tables["team"]));
+                if ((ds.Tables["player"] != null)) {
+                    base.Tables.Add(new playerDataTable(ds.Tables["player"]));
                 }
                 this.DataSetName = ds.DataSetName;
                 this.Prefix = ds.Prefix;
@@ -188,10 +188,10 @@ namespace LKS_SA_AhmadIrwansyah {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         internal void InitVars(bool initTable) {
-            this.tableteam = ((teamDataTable)(base.Tables["team"]));
+            this.tableplayer = ((playerDataTable)(base.Tables["player"]));
             if ((initTable == true)) {
-                if ((this.tableteam != null)) {
-                    this.tableteam.InitVars();
+                if ((this.tableplayer != null)) {
+                    this.tableplayer.InitVars();
                 }
             }
         }
@@ -199,18 +199,18 @@ namespace LKS_SA_AhmadIrwansyah {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitClass() {
-            this.DataSetName = "EsemkaEsportDataSet2";
+            this.DataSetName = "EsemkaEsportDataSet6";
             this.Prefix = "";
-            this.Namespace = "http://tempuri.org/EsemkaEsportDataSet2.xsd";
+            this.Namespace = "http://tempuri.org/EsemkaEsportDataSet6.xsd";
             this.EnforceConstraints = true;
             this.SchemaSerializationMode = global::System.Data.SchemaSerializationMode.IncludeSchema;
-            this.tableteam = new teamDataTable();
-            base.Tables.Add(this.tableteam);
+            this.tableplayer = new playerDataTable();
+            base.Tables.Add(this.tableplayer);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        private bool ShouldSerializeteam() {
+        private bool ShouldSerializeplayer() {
             return false;
         }
         
@@ -225,7 +225,7 @@ namespace LKS_SA_AhmadIrwansyah {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedDataSetSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
-            EsemkaEsportDataSet2 ds = new EsemkaEsportDataSet2();
+            EsemkaEsportDataSet6 ds = new EsemkaEsportDataSet6();
             global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
             global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
             global::System.Xml.Schema.XmlSchemaAny any = new global::System.Xml.Schema.XmlSchemaAny();
@@ -270,23 +270,23 @@ namespace LKS_SA_AhmadIrwansyah {
         }
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        public delegate void teamRowChangeEventHandler(object sender, teamRowChangeEvent e);
+        public delegate void playerRowChangeEventHandler(object sender, playerRowChangeEvent e);
         
         /// <summary>
         ///Represents the strongly named DataTable class.
         ///</summary>
         [global::System.Serializable()]
         [global::System.Xml.Serialization.XmlSchemaProviderAttribute("GetTypedTableSchema")]
-        public partial class teamDataTable : global::System.Data.TypedTableBase<teamRow> {
+        public partial class playerDataTable : global::System.Data.TypedTableBase<playerRow> {
             
             private global::System.Data.DataColumn columnid;
             
-            private global::System.Data.DataColumn columnteam_name;
+            private global::System.Data.DataColumn columnnick_name;
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public teamDataTable() {
-                this.TableName = "team";
+            public playerDataTable() {
+                this.TableName = "player";
                 this.BeginInit();
                 this.InitClass();
                 this.EndInit();
@@ -294,7 +294,7 @@ namespace LKS_SA_AhmadIrwansyah {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            internal teamDataTable(global::System.Data.DataTable table) {
+            internal playerDataTable(global::System.Data.DataTable table) {
                 this.TableName = table.TableName;
                 if ((table.CaseSensitive != table.DataSet.CaseSensitive)) {
                     this.CaseSensitive = table.CaseSensitive;
@@ -311,7 +311,7 @@ namespace LKS_SA_AhmadIrwansyah {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            protected teamDataTable(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
+            protected playerDataTable(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
                     base(info, context) {
                 this.InitVars();
             }
@@ -326,9 +326,9 @@ namespace LKS_SA_AhmadIrwansyah {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public global::System.Data.DataColumn team_nameColumn {
+            public global::System.Data.DataColumn nick_nameColumn {
                 get {
-                    return this.columnteam_name;
+                    return this.columnnick_name;
                 }
             }
             
@@ -343,53 +343,53 @@ namespace LKS_SA_AhmadIrwansyah {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public teamRow this[int index] {
+            public playerRow this[int index] {
                 get {
-                    return ((teamRow)(this.Rows[index]));
+                    return ((playerRow)(this.Rows[index]));
                 }
             }
             
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public event teamRowChangeEventHandler teamRowChanging;
+            public event playerRowChangeEventHandler playerRowChanging;
             
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public event teamRowChangeEventHandler teamRowChanged;
+            public event playerRowChangeEventHandler playerRowChanged;
             
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public event teamRowChangeEventHandler teamRowDeleting;
+            public event playerRowChangeEventHandler playerRowDeleting;
             
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public event teamRowChangeEventHandler teamRowDeleted;
+            public event playerRowChangeEventHandler playerRowDeleted;
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public void AddteamRow(teamRow row) {
+            public void AddplayerRow(playerRow row) {
                 this.Rows.Add(row);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public teamRow AddteamRow(string team_name) {
-                teamRow rowteamRow = ((teamRow)(this.NewRow()));
+            public playerRow AddplayerRow(string nick_name) {
+                playerRow rowplayerRow = ((playerRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         null,
-                        team_name};
-                rowteamRow.ItemArray = columnValuesArray;
-                this.Rows.Add(rowteamRow);
-                return rowteamRow;
+                        nick_name};
+                rowplayerRow.ItemArray = columnValuesArray;
+                this.Rows.Add(rowplayerRow);
+                return rowplayerRow;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public teamRow FindByid(int id) {
-                return ((teamRow)(this.Rows.Find(new object[] {
+            public playerRow FindByid(int id) {
+                return ((playerRow)(this.Rows.Find(new object[] {
                             id})));
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public override global::System.Data.DataTable Clone() {
-                teamDataTable cln = ((teamDataTable)(base.Clone()));
+                playerDataTable cln = ((playerDataTable)(base.Clone()));
                 cln.InitVars();
                 return cln;
             }
@@ -397,14 +397,14 @@ namespace LKS_SA_AhmadIrwansyah {
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override global::System.Data.DataTable CreateInstance() {
-                return new teamDataTable();
+                return new playerDataTable();
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             internal void InitVars() {
                 this.columnid = base.Columns["id"];
-                this.columnteam_name = base.Columns["team_name"];
+                this.columnnick_name = base.Columns["nick_name"];
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -412,8 +412,8 @@ namespace LKS_SA_AhmadIrwansyah {
             private void InitClass() {
                 this.columnid = new global::System.Data.DataColumn("id", typeof(int), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnid);
-                this.columnteam_name = new global::System.Data.DataColumn("team_name", typeof(string), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnteam_name);
+                this.columnnick_name = new global::System.Data.DataColumn("nick_name", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnnick_name);
                 this.Constraints.Add(new global::System.Data.UniqueConstraint("Constraint1", new global::System.Data.DataColumn[] {
                                 this.columnid}, true));
                 this.columnid.AutoIncrement = true;
@@ -422,34 +422,34 @@ namespace LKS_SA_AhmadIrwansyah {
                 this.columnid.AllowDBNull = false;
                 this.columnid.ReadOnly = true;
                 this.columnid.Unique = true;
-                this.columnteam_name.AllowDBNull = false;
-                this.columnteam_name.MaxLength = 50;
+                this.columnnick_name.AllowDBNull = false;
+                this.columnnick_name.MaxLength = 50;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public teamRow NewteamRow() {
-                return ((teamRow)(this.NewRow()));
+            public playerRow NewplayerRow() {
+                return ((playerRow)(this.NewRow()));
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override global::System.Data.DataRow NewRowFromBuilder(global::System.Data.DataRowBuilder builder) {
-                return new teamRow(builder);
+                return new playerRow(builder);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override global::System.Type GetRowType() {
-                return typeof(teamRow);
+                return typeof(playerRow);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override void OnRowChanged(global::System.Data.DataRowChangeEventArgs e) {
                 base.OnRowChanged(e);
-                if ((this.teamRowChanged != null)) {
-                    this.teamRowChanged(this, new teamRowChangeEvent(((teamRow)(e.Row)), e.Action));
+                if ((this.playerRowChanged != null)) {
+                    this.playerRowChanged(this, new playerRowChangeEvent(((playerRow)(e.Row)), e.Action));
                 }
             }
             
@@ -457,8 +457,8 @@ namespace LKS_SA_AhmadIrwansyah {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override void OnRowChanging(global::System.Data.DataRowChangeEventArgs e) {
                 base.OnRowChanging(e);
-                if ((this.teamRowChanging != null)) {
-                    this.teamRowChanging(this, new teamRowChangeEvent(((teamRow)(e.Row)), e.Action));
+                if ((this.playerRowChanging != null)) {
+                    this.playerRowChanging(this, new playerRowChangeEvent(((playerRow)(e.Row)), e.Action));
                 }
             }
             
@@ -466,8 +466,8 @@ namespace LKS_SA_AhmadIrwansyah {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override void OnRowDeleted(global::System.Data.DataRowChangeEventArgs e) {
                 base.OnRowDeleted(e);
-                if ((this.teamRowDeleted != null)) {
-                    this.teamRowDeleted(this, new teamRowChangeEvent(((teamRow)(e.Row)), e.Action));
+                if ((this.playerRowDeleted != null)) {
+                    this.playerRowDeleted(this, new playerRowChangeEvent(((playerRow)(e.Row)), e.Action));
                 }
             }
             
@@ -475,14 +475,14 @@ namespace LKS_SA_AhmadIrwansyah {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override void OnRowDeleting(global::System.Data.DataRowChangeEventArgs e) {
                 base.OnRowDeleting(e);
-                if ((this.teamRowDeleting != null)) {
-                    this.teamRowDeleting(this, new teamRowChangeEvent(((teamRow)(e.Row)), e.Action));
+                if ((this.playerRowDeleting != null)) {
+                    this.playerRowDeleting(this, new playerRowChangeEvent(((playerRow)(e.Row)), e.Action));
                 }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public void RemoveteamRow(teamRow row) {
+            public void RemoveplayerRow(playerRow row) {
                 this.Rows.Remove(row);
             }
             
@@ -491,7 +491,7 @@ namespace LKS_SA_AhmadIrwansyah {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                EsemkaEsportDataSet2 ds = new EsemkaEsportDataSet2();
+                EsemkaEsportDataSet6 ds = new EsemkaEsportDataSet6();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -509,7 +509,7 @@ namespace LKS_SA_AhmadIrwansyah {
                 type.Attributes.Add(attribute1);
                 global::System.Xml.Schema.XmlSchemaAttribute attribute2 = new global::System.Xml.Schema.XmlSchemaAttribute();
                 attribute2.Name = "tableTypeName";
-                attribute2.FixedValue = "teamDataTable";
+                attribute2.FixedValue = "playerDataTable";
                 type.Attributes.Add(attribute2);
                 type.Particle = sequence;
                 global::System.Xml.Schema.XmlSchema dsSchema = ds.GetSchemaSerializable();
@@ -553,36 +553,36 @@ namespace LKS_SA_AhmadIrwansyah {
         /// <summary>
         ///Represents strongly named DataRow class.
         ///</summary>
-        public partial class teamRow : global::System.Data.DataRow {
+        public partial class playerRow : global::System.Data.DataRow {
             
-            private teamDataTable tableteam;
+            private playerDataTable tableplayer;
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            internal teamRow(global::System.Data.DataRowBuilder rb) : 
+            internal playerRow(global::System.Data.DataRowBuilder rb) : 
                     base(rb) {
-                this.tableteam = ((teamDataTable)(this.Table));
+                this.tableplayer = ((playerDataTable)(this.Table));
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public int id {
                 get {
-                    return ((int)(this[this.tableteam.idColumn]));
+                    return ((int)(this[this.tableplayer.idColumn]));
                 }
                 set {
-                    this[this.tableteam.idColumn] = value;
+                    this[this.tableplayer.idColumn] = value;
                 }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public string team_name {
+            public string nick_name {
                 get {
-                    return ((string)(this[this.tableteam.team_nameColumn]));
+                    return ((string)(this[this.tableplayer.nick_nameColumn]));
                 }
                 set {
-                    this[this.tableteam.team_nameColumn] = value;
+                    this[this.tableplayer.nick_nameColumn] = value;
                 }
             }
         }
@@ -591,22 +591,22 @@ namespace LKS_SA_AhmadIrwansyah {
         ///Row event argument class
         ///</summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        public class teamRowChangeEvent : global::System.EventArgs {
+        public class playerRowChangeEvent : global::System.EventArgs {
             
-            private teamRow eventRow;
+            private playerRow eventRow;
             
             private global::System.Data.DataRowAction eventAction;
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public teamRowChangeEvent(teamRow row, global::System.Data.DataRowAction action) {
+            public playerRowChangeEvent(playerRow row, global::System.Data.DataRowAction action) {
                 this.eventRow = row;
                 this.eventAction = action;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public teamRow Row {
+            public playerRow Row {
                 get {
                     return this.eventRow;
                 }
@@ -622,7 +622,7 @@ namespace LKS_SA_AhmadIrwansyah {
         }
     }
 }
-namespace LKS_SA_AhmadIrwansyah.EsemkaEsportDataSet2TableAdapters {
+namespace LKS_SA_AhmadIrwansyah.EsemkaEsportDataSet6TableAdapters {
     
     
     /// <summary>
@@ -634,7 +634,7 @@ namespace LKS_SA_AhmadIrwansyah.EsemkaEsportDataSet2TableAdapters {
     [global::System.ComponentModel.DesignerAttribute("Microsoft.VSDesigner.DataSource.Design.TableAdapterDesigner, Microsoft.VSDesigner" +
         ", Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")]
     [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-    public partial class teamTableAdapter : global::System.ComponentModel.Component {
+    public partial class playerTableAdapter : global::System.ComponentModel.Component {
         
         private global::System.Data.SqlClient.SqlDataAdapter _adapter;
         
@@ -648,7 +648,7 @@ namespace LKS_SA_AhmadIrwansyah.EsemkaEsportDataSet2TableAdapters {
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        public teamTableAdapter() {
+        public playerTableAdapter() {
             this.ClearBeforeFill = true;
         }
         
@@ -745,26 +745,26 @@ namespace LKS_SA_AhmadIrwansyah.EsemkaEsportDataSet2TableAdapters {
             this._adapter = new global::System.Data.SqlClient.SqlDataAdapter();
             global::System.Data.Common.DataTableMapping tableMapping = new global::System.Data.Common.DataTableMapping();
             tableMapping.SourceTable = "Table";
-            tableMapping.DataSetTable = "team";
+            tableMapping.DataSetTable = "player";
             tableMapping.ColumnMappings.Add("id", "id");
-            tableMapping.ColumnMappings.Add("team_name", "team_name");
+            tableMapping.ColumnMappings.Add("nick_name", "nick_name");
             this._adapter.TableMappings.Add(tableMapping);
             this._adapter.DeleteCommand = new global::System.Data.SqlClient.SqlCommand();
             this._adapter.DeleteCommand.Connection = this.Connection;
-            this._adapter.DeleteCommand.CommandText = "DELETE FROM [dbo].[team] WHERE (([id] = @Original_id) AND ([team_name] = @Origina" +
-                "l_team_name))";
+            this._adapter.DeleteCommand.CommandText = "DELETE FROM [dbo].[player] WHERE (([id] = @Original_id) AND ([nick_name] = @Origi" +
+                "nal_nick_name))";
             this._adapter.DeleteCommand.CommandType = global::System.Data.CommandType.Text;
             this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_id", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "id", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
-            this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_team_name", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "team_name", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
+            this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_nick_name", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "nick_name", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._adapter.UpdateCommand = new global::System.Data.SqlClient.SqlCommand();
             this._adapter.UpdateCommand.Connection = this.Connection;
-            this._adapter.UpdateCommand.CommandText = "UPDATE [dbo].[team] SET [team_name] = @team_name WHERE (([id] = @Original_id) AND" +
-                " ([team_name] = @Original_team_name));\r\nSELECT id, team_name FROM team WHERE (id" +
-                " = @id)";
+            this._adapter.UpdateCommand.CommandText = "UPDATE [dbo].[player] SET [nick_name] = @nick_name WHERE (([id] = @Original_id) A" +
+                "ND ([nick_name] = @Original_nick_name));\r\nSELECT id, nick_name FROM player WHERE" +
+                " (id = @id)";
             this._adapter.UpdateCommand.CommandType = global::System.Data.CommandType.Text;
-            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@team_name", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "team_name", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@nick_name", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "nick_name", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_id", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "id", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
-            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_team_name", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "team_name", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_nick_name", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "nick_name", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@id", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.Input, 0, 0, "id", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
         }
         
@@ -778,22 +778,37 @@ namespace LKS_SA_AhmadIrwansyah.EsemkaEsportDataSet2TableAdapters {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitCommandCollection() {
-            this._commandCollection = new global::System.Data.SqlClient.SqlCommand[2];
+            this._commandCollection = new global::System.Data.SqlClient.SqlCommand[5];
             this._commandCollection[0] = new global::System.Data.SqlClient.SqlCommand();
             this._commandCollection[0].Connection = this.Connection;
-            this._commandCollection[0].CommandText = "SELECT id, team_name FROM dbo.team";
+            this._commandCollection[0].CommandText = "SELECT id, nick_name FROM dbo.player";
             this._commandCollection[0].CommandType = global::System.Data.CommandType.Text;
             this._commandCollection[1] = new global::System.Data.SqlClient.SqlCommand();
             this._commandCollection[1].Connection = this.Connection;
-            this._commandCollection[1].CommandText = "select t.id, t.team_name from team t, team_detail td where td.team_id=t.id";
+            this._commandCollection[1].CommandText = "SELECT id, nick_name FROM dbo.player";
             this._commandCollection[1].CommandType = global::System.Data.CommandType.Text;
+            this._commandCollection[2] = new global::System.Data.SqlClient.SqlCommand();
+            this._commandCollection[2].Connection = this.Connection;
+            this._commandCollection[2].CommandText = "SELECT id, nick_name FROM dbo.player WHERE id NOT IN (select player_id from team_" +
+                "detail)";
+            this._commandCollection[2].CommandType = global::System.Data.CommandType.Text;
+            this._commandCollection[3] = new global::System.Data.SqlClient.SqlCommand();
+            this._commandCollection[3].Connection = this.Connection;
+            this._commandCollection[3].CommandText = "select id, nick_name\r\nfrom player\r\nwhere id NOT IN (select player_id from team_de" +
+                "tail)";
+            this._commandCollection[3].CommandType = global::System.Data.CommandType.Text;
+            this._commandCollection[4] = new global::System.Data.SqlClient.SqlCommand();
+            this._commandCollection[4].Connection = this.Connection;
+            this._commandCollection[4].CommandText = "SELECT id, nick_name\r\nFROM   player\r\nWHERE (id NOT IN\r\n                 (SELECT i" +
+                "d\r\n                 FROM    team_detail))";
+            this._commandCollection[4].CommandType = global::System.Data.CommandType.Text;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(EsemkaEsportDataSet2.teamDataTable dataTable) {
+        public virtual int Fill(EsemkaEsportDataSet6.playerDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -806,9 +821,9 @@ namespace LKS_SA_AhmadIrwansyah.EsemkaEsportDataSet2TableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual EsemkaEsportDataSet2.teamDataTable GetData() {
+        public virtual EsemkaEsportDataSet6.playerDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            EsemkaEsportDataSet2.teamDataTable dataTable = new EsemkaEsportDataSet2.teamDataTable();
+            EsemkaEsportDataSet6.playerDataTable dataTable = new EsemkaEsportDataSet6.playerDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -817,7 +832,7 @@ namespace LKS_SA_AhmadIrwansyah.EsemkaEsportDataSet2TableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, false)]
-        public virtual int FillBy(EsemkaEsportDataSet2.teamDataTable dataTable) {
+        public virtual int FillBy(EsemkaEsportDataSet6.playerDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[1];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -829,15 +844,54 @@ namespace LKS_SA_AhmadIrwansyah.EsemkaEsportDataSet2TableAdapters {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(EsemkaEsportDataSet2.teamDataTable dataTable) {
+        [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, false)]
+        public virtual int FillBy1(EsemkaEsportDataSet6.playerDataTable dataTable) {
+            this.Adapter.SelectCommand = this.CommandCollection[2];
+            if ((this.ClearBeforeFill == true)) {
+                dataTable.Clear();
+            }
+            int returnValue = this.Adapter.Fill(dataTable);
+            return returnValue;
+        }
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+        [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
+        [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, false)]
+        public virtual int FillBy2(EsemkaEsportDataSet6.playerDataTable dataTable) {
+            this.Adapter.SelectCommand = this.CommandCollection[3];
+            if ((this.ClearBeforeFill == true)) {
+                dataTable.Clear();
+            }
+            int returnValue = this.Adapter.Fill(dataTable);
+            return returnValue;
+        }
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+        [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
+        [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, false)]
+        public virtual int FillBy3(EsemkaEsportDataSet6.playerDataTable dataTable) {
+            this.Adapter.SelectCommand = this.CommandCollection[4];
+            if ((this.ClearBeforeFill == true)) {
+                dataTable.Clear();
+            }
+            int returnValue = this.Adapter.Fill(dataTable);
+            return returnValue;
+        }
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+        [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
+        public virtual int Update(EsemkaEsportDataSet6.playerDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(EsemkaEsportDataSet2 dataSet) {
-            return this.Adapter.Update(dataSet, "team");
+        public virtual int Update(EsemkaEsportDataSet6 dataSet) {
+            return this.Adapter.Update(dataSet, "player");
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -859,13 +913,13 @@ namespace LKS_SA_AhmadIrwansyah.EsemkaEsportDataSet2TableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Delete, true)]
-        public virtual int Delete(int Original_id, string Original_team_name) {
+        public virtual int Delete(int Original_id, string Original_nick_name) {
             this.Adapter.DeleteCommand.Parameters[0].Value = ((int)(Original_id));
-            if ((Original_team_name == null)) {
-                throw new global::System.ArgumentNullException("Original_team_name");
+            if ((Original_nick_name == null)) {
+                throw new global::System.ArgumentNullException("Original_nick_name");
             }
             else {
-                this.Adapter.DeleteCommand.Parameters[1].Value = ((string)(Original_team_name));
+                this.Adapter.DeleteCommand.Parameters[1].Value = ((string)(Original_nick_name));
             }
             global::System.Data.ConnectionState previousConnectionState = this.Adapter.DeleteCommand.Connection.State;
             if (((this.Adapter.DeleteCommand.Connection.State & global::System.Data.ConnectionState.Open) 
@@ -887,19 +941,19 @@ namespace LKS_SA_AhmadIrwansyah.EsemkaEsportDataSet2TableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Update, true)]
-        public virtual int Update(string team_name, int Original_id, string Original_team_name, int id) {
-            if ((team_name == null)) {
-                throw new global::System.ArgumentNullException("team_name");
+        public virtual int Update(string nick_name, int Original_id, string Original_nick_name, int id) {
+            if ((nick_name == null)) {
+                throw new global::System.ArgumentNullException("nick_name");
             }
             else {
-                this.Adapter.UpdateCommand.Parameters[0].Value = ((string)(team_name));
+                this.Adapter.UpdateCommand.Parameters[0].Value = ((string)(nick_name));
             }
             this.Adapter.UpdateCommand.Parameters[1].Value = ((int)(Original_id));
-            if ((Original_team_name == null)) {
-                throw new global::System.ArgumentNullException("Original_team_name");
+            if ((Original_nick_name == null)) {
+                throw new global::System.ArgumentNullException("Original_nick_name");
             }
             else {
-                this.Adapter.UpdateCommand.Parameters[2].Value = ((string)(Original_team_name));
+                this.Adapter.UpdateCommand.Parameters[2].Value = ((string)(Original_nick_name));
             }
             this.Adapter.UpdateCommand.Parameters[3].Value = ((int)(id));
             global::System.Data.ConnectionState previousConnectionState = this.Adapter.UpdateCommand.Connection.State;
@@ -922,8 +976,8 @@ namespace LKS_SA_AhmadIrwansyah.EsemkaEsportDataSet2TableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Update, true)]
-        public virtual int Update(string team_name, int Original_id, string Original_team_name) {
-            return this.Update(team_name, Original_id, Original_team_name, Original_id);
+        public virtual int Update(string nick_name, int Original_id, string Original_nick_name) {
+            return this.Update(nick_name, Original_id, Original_nick_name, Original_id);
         }
     }
     
@@ -939,7 +993,7 @@ namespace LKS_SA_AhmadIrwansyah.EsemkaEsportDataSet2TableAdapters {
         
         private UpdateOrderOption _updateOrder;
         
-        private teamTableAdapter _teamTableAdapter;
+        private playerTableAdapter _playerTableAdapter;
         
         private bool _backupDataSetBeforeUpdate;
         
@@ -961,12 +1015,12 @@ namespace LKS_SA_AhmadIrwansyah.EsemkaEsportDataSet2TableAdapters {
         [global::System.ComponentModel.EditorAttribute("Microsoft.VSDesigner.DataSource.Design.TableAdapterManagerPropertyEditor, Microso" +
             "ft.VSDesigner, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3" +
             "a", "System.Drawing.Design.UITypeEditor")]
-        public teamTableAdapter teamTableAdapter {
+        public playerTableAdapter playerTableAdapter {
             get {
-                return this._teamTableAdapter;
+                return this._playerTableAdapter;
             }
             set {
-                this._teamTableAdapter = value;
+                this._playerTableAdapter = value;
             }
         }
         
@@ -989,9 +1043,9 @@ namespace LKS_SA_AhmadIrwansyah.EsemkaEsportDataSet2TableAdapters {
                 if ((this._connection != null)) {
                     return this._connection;
                 }
-                if (((this._teamTableAdapter != null) 
-                            && (this._teamTableAdapter.Connection != null))) {
-                    return this._teamTableAdapter.Connection;
+                if (((this._playerTableAdapter != null) 
+                            && (this._playerTableAdapter.Connection != null))) {
+                    return this._playerTableAdapter.Connection;
                 }
                 return null;
             }
@@ -1006,7 +1060,7 @@ namespace LKS_SA_AhmadIrwansyah.EsemkaEsportDataSet2TableAdapters {
         public int TableAdapterInstanceCount {
             get {
                 int count = 0;
-                if ((this._teamTableAdapter != null)) {
+                if ((this._playerTableAdapter != null)) {
                     count = (count + 1);
                 }
                 return count;
@@ -1018,14 +1072,14 @@ namespace LKS_SA_AhmadIrwansyah.EsemkaEsportDataSet2TableAdapters {
         ///</summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        private int UpdateUpdatedRows(EsemkaEsportDataSet2 dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allChangedRows, global::System.Collections.Generic.List<global::System.Data.DataRow> allAddedRows) {
+        private int UpdateUpdatedRows(EsemkaEsportDataSet6 dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allChangedRows, global::System.Collections.Generic.List<global::System.Data.DataRow> allAddedRows) {
             int result = 0;
-            if ((this._teamTableAdapter != null)) {
-                global::System.Data.DataRow[] updatedRows = dataSet.team.Select(null, null, global::System.Data.DataViewRowState.ModifiedCurrent);
+            if ((this._playerTableAdapter != null)) {
+                global::System.Data.DataRow[] updatedRows = dataSet.player.Select(null, null, global::System.Data.DataViewRowState.ModifiedCurrent);
                 updatedRows = this.GetRealUpdatedRows(updatedRows, allAddedRows);
                 if (((updatedRows != null) 
                             && (0 < updatedRows.Length))) {
-                    result = (result + this._teamTableAdapter.Update(updatedRows));
+                    result = (result + this._playerTableAdapter.Update(updatedRows));
                     allChangedRows.AddRange(updatedRows);
                 }
             }
@@ -1037,13 +1091,13 @@ namespace LKS_SA_AhmadIrwansyah.EsemkaEsportDataSet2TableAdapters {
         ///</summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        private int UpdateInsertedRows(EsemkaEsportDataSet2 dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allAddedRows) {
+        private int UpdateInsertedRows(EsemkaEsportDataSet6 dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allAddedRows) {
             int result = 0;
-            if ((this._teamTableAdapter != null)) {
-                global::System.Data.DataRow[] addedRows = dataSet.team.Select(null, null, global::System.Data.DataViewRowState.Added);
+            if ((this._playerTableAdapter != null)) {
+                global::System.Data.DataRow[] addedRows = dataSet.player.Select(null, null, global::System.Data.DataViewRowState.Added);
                 if (((addedRows != null) 
                             && (0 < addedRows.Length))) {
-                    result = (result + this._teamTableAdapter.Update(addedRows));
+                    result = (result + this._playerTableAdapter.Update(addedRows));
                     allAddedRows.AddRange(addedRows);
                 }
             }
@@ -1055,13 +1109,13 @@ namespace LKS_SA_AhmadIrwansyah.EsemkaEsportDataSet2TableAdapters {
         ///</summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        private int UpdateDeletedRows(EsemkaEsportDataSet2 dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allChangedRows) {
+        private int UpdateDeletedRows(EsemkaEsportDataSet6 dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allChangedRows) {
             int result = 0;
-            if ((this._teamTableAdapter != null)) {
-                global::System.Data.DataRow[] deletedRows = dataSet.team.Select(null, null, global::System.Data.DataViewRowState.Deleted);
+            if ((this._playerTableAdapter != null)) {
+                global::System.Data.DataRow[] deletedRows = dataSet.player.Select(null, null, global::System.Data.DataViewRowState.Deleted);
                 if (((deletedRows != null) 
                             && (0 < deletedRows.Length))) {
-                    result = (result + this._teamTableAdapter.Update(deletedRows));
+                    result = (result + this._playerTableAdapter.Update(deletedRows));
                     allChangedRows.AddRange(deletedRows);
                 }
             }
@@ -1097,15 +1151,15 @@ namespace LKS_SA_AhmadIrwansyah.EsemkaEsportDataSet2TableAdapters {
         ///</summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        public virtual int UpdateAll(EsemkaEsportDataSet2 dataSet) {
+        public virtual int UpdateAll(EsemkaEsportDataSet6 dataSet) {
             if ((dataSet == null)) {
                 throw new global::System.ArgumentNullException("dataSet");
             }
             if ((dataSet.HasChanges() == false)) {
                 return 0;
             }
-            if (((this._teamTableAdapter != null) 
-                        && (this.MatchTableAdapterConnection(this._teamTableAdapter.Connection) == false))) {
+            if (((this._playerTableAdapter != null) 
+                        && (this.MatchTableAdapterConnection(this._playerTableAdapter.Connection) == false))) {
                 throw new global::System.ArgumentException("All TableAdapters managed by a TableAdapterManager must use the same connection s" +
                         "tring.");
             }
@@ -1141,13 +1195,13 @@ namespace LKS_SA_AhmadIrwansyah.EsemkaEsportDataSet2TableAdapters {
             try {
                 // ---- Prepare for update -----------
                 //
-                if ((this._teamTableAdapter != null)) {
-                    revertConnections.Add(this._teamTableAdapter, this._teamTableAdapter.Connection);
-                    this._teamTableAdapter.Connection = ((global::System.Data.SqlClient.SqlConnection)(workConnection));
-                    this._teamTableAdapter.Transaction = ((global::System.Data.SqlClient.SqlTransaction)(workTransaction));
-                    if (this._teamTableAdapter.Adapter.AcceptChangesDuringUpdate) {
-                        this._teamTableAdapter.Adapter.AcceptChangesDuringUpdate = false;
-                        adaptersWithAcceptChangesDuringUpdate.Add(this._teamTableAdapter.Adapter);
+                if ((this._playerTableAdapter != null)) {
+                    revertConnections.Add(this._playerTableAdapter, this._playerTableAdapter.Connection);
+                    this._playerTableAdapter.Connection = ((global::System.Data.SqlClient.SqlConnection)(workConnection));
+                    this._playerTableAdapter.Transaction = ((global::System.Data.SqlClient.SqlTransaction)(workTransaction));
+                    if (this._playerTableAdapter.Adapter.AcceptChangesDuringUpdate) {
+                        this._playerTableAdapter.Adapter.AcceptChangesDuringUpdate = false;
+                        adaptersWithAcceptChangesDuringUpdate.Add(this._playerTableAdapter.Adapter);
                     }
                 }
                 // 
@@ -1208,9 +1262,9 @@ namespace LKS_SA_AhmadIrwansyah.EsemkaEsportDataSet2TableAdapters {
                 if (workConnOpened) {
                     workConnection.Close();
                 }
-                if ((this._teamTableAdapter != null)) {
-                    this._teamTableAdapter.Connection = ((global::System.Data.SqlClient.SqlConnection)(revertConnections[this._teamTableAdapter]));
-                    this._teamTableAdapter.Transaction = null;
+                if ((this._playerTableAdapter != null)) {
+                    this._playerTableAdapter.Connection = ((global::System.Data.SqlClient.SqlConnection)(revertConnections[this._playerTableAdapter]));
+                    this._playerTableAdapter.Transaction = null;
                 }
                 if ((0 < adaptersWithAcceptChangesDuringUpdate.Count)) {
                     global::System.Data.Common.DataAdapter[] adapters = new System.Data.Common.DataAdapter[adaptersWithAcceptChangesDuringUpdate.Count];

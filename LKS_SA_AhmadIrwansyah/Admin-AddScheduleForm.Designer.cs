@@ -34,25 +34,25 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.teamBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.esemkaEsportDataSet1 = new LKS_SA_AhmadIrwansyah.EsemkaEsportDataSet1();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.teamBindingSource2 = new System.Windows.Forms.BindingSource(this.components);
+            this.esemkaEsportDataSet2 = new LKS_SA_AhmadIrwansyah.EsemkaEsportDataSet2();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.button1 = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.esemkaEsportDataSet = new LKS_SA_AhmadIrwansyah.EsemkaEsportDataSet();
             this.teamBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.teamTableAdapter = new LKS_SA_AhmadIrwansyah.EsemkaEsportDataSetTableAdapters.teamTableAdapter();
-            this.esemkaEsportDataSet1 = new LKS_SA_AhmadIrwansyah.EsemkaEsportDataSet1();
-            this.teamBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.teamTableAdapter1 = new LKS_SA_AhmadIrwansyah.EsemkaEsportDataSet1TableAdapters.teamTableAdapter();
-            this.esemkaEsportDataSet2 = new LKS_SA_AhmadIrwansyah.EsemkaEsportDataSet2();
-            this.teamBindingSource2 = new System.Windows.Forms.BindingSource(this.components);
             this.teamTableAdapter2 = new LKS_SA_AhmadIrwansyah.EsemkaEsportDataSet2TableAdapters.teamTableAdapter();
+            ((System.ComponentModel.ISupportInitialize)(this.teamBindingSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.esemkaEsportDataSet1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.teamBindingSource2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.esemkaEsportDataSet2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.esemkaEsportDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.teamBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.esemkaEsportDataSet1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.teamBindingSource1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.esemkaEsportDataSet2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.teamBindingSource2)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -111,6 +111,16 @@
             this.comboBox1.TabIndex = 4;
             this.comboBox1.ValueMember = "id";
             // 
+            // teamBindingSource1
+            // 
+            this.teamBindingSource1.DataMember = "team";
+            this.teamBindingSource1.DataSource = this.esemkaEsportDataSet1;
+            // 
+            // esemkaEsportDataSet1
+            // 
+            this.esemkaEsportDataSet1.DataSetName = "EsemkaEsportDataSet1";
+            this.esemkaEsportDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
             // comboBox2
             // 
             this.comboBox2.DataSource = this.teamBindingSource2;
@@ -122,6 +132,16 @@
             this.comboBox2.Size = new System.Drawing.Size(380, 33);
             this.comboBox2.TabIndex = 5;
             this.comboBox2.ValueMember = "id";
+            // 
+            // teamBindingSource2
+            // 
+            this.teamBindingSource2.DataMember = "team";
+            this.teamBindingSource2.DataSource = this.esemkaEsportDataSet2;
+            // 
+            // esemkaEsportDataSet2
+            // 
+            this.esemkaEsportDataSet2.DataSetName = "EsemkaEsportDataSet2";
+            this.esemkaEsportDataSet2.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // dateTimePicker1
             // 
@@ -174,29 +194,9 @@
             // 
             this.teamTableAdapter.ClearBeforeFill = true;
             // 
-            // esemkaEsportDataSet1
-            // 
-            this.esemkaEsportDataSet1.DataSetName = "EsemkaEsportDataSet1";
-            this.esemkaEsportDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // teamBindingSource1
-            // 
-            this.teamBindingSource1.DataMember = "team";
-            this.teamBindingSource1.DataSource = this.esemkaEsportDataSet1;
-            // 
             // teamTableAdapter1
             // 
             this.teamTableAdapter1.ClearBeforeFill = true;
-            // 
-            // esemkaEsportDataSet2
-            // 
-            this.esemkaEsportDataSet2.DataSetName = "EsemkaEsportDataSet2";
-            this.esemkaEsportDataSet2.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // teamBindingSource2
-            // 
-            this.teamBindingSource2.DataMember = "team";
-            this.teamBindingSource2.DataSource = this.esemkaEsportDataSet2;
             // 
             // teamTableAdapter2
             // 
@@ -207,7 +207,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(3)))), ((int)(((byte)(69)))));
-            this.ClientSize = new System.Drawing.Size(800, 500);
+            this.ClientSize = new System.Drawing.Size(808, 500);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dateTimePicker1);
@@ -222,12 +222,12 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Admin_AddScheduleForm";
             this.Load += new System.EventHandler(this.Admin_AddScheduleForm_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.teamBindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.esemkaEsportDataSet1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.teamBindingSource2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.esemkaEsportDataSet2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.esemkaEsportDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.teamBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.esemkaEsportDataSet1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.teamBindingSource1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.esemkaEsportDataSet2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.teamBindingSource2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

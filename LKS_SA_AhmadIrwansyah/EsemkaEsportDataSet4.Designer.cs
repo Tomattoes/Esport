@@ -20,9 +20,9 @@ namespace LKS_SA_AhmadIrwansyah {
     [global::System.ComponentModel.DesignerCategoryAttribute("code")]
     [global::System.ComponentModel.ToolboxItem(true)]
     [global::System.Xml.Serialization.XmlSchemaProviderAttribute("GetTypedDataSetSchema")]
-    [global::System.Xml.Serialization.XmlRootAttribute("EsemkaEsportDataSet2")]
+    [global::System.Xml.Serialization.XmlRootAttribute("EsemkaEsportDataSet4")]
     [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.DataSet")]
-    public partial class EsemkaEsportDataSet2 : global::System.Data.DataSet {
+    public partial class EsemkaEsportDataSet4 : global::System.Data.DataSet {
         
         private teamDataTable tableteam;
         
@@ -30,7 +30,7 @@ namespace LKS_SA_AhmadIrwansyah {
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        public EsemkaEsportDataSet2() {
+        public EsemkaEsportDataSet4() {
             this.BeginInit();
             this.InitClass();
             global::System.ComponentModel.CollectionChangeEventHandler schemaChangedHandler = new global::System.ComponentModel.CollectionChangeEventHandler(this.SchemaChanged);
@@ -41,7 +41,7 @@ namespace LKS_SA_AhmadIrwansyah {
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        protected EsemkaEsportDataSet2(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
+        protected EsemkaEsportDataSet4(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
                 base(info, context, false) {
             if ((this.IsBinarySerialized(info, context) == true)) {
                 this.InitVars(false);
@@ -127,7 +127,7 @@ namespace LKS_SA_AhmadIrwansyah {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         public override global::System.Data.DataSet Clone() {
-            EsemkaEsportDataSet2 cln = ((EsemkaEsportDataSet2)(base.Clone()));
+            EsemkaEsportDataSet4 cln = ((EsemkaEsportDataSet4)(base.Clone()));
             cln.InitVars();
             cln.SchemaSerializationMode = this.SchemaSerializationMode;
             return cln;
@@ -199,9 +199,9 @@ namespace LKS_SA_AhmadIrwansyah {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitClass() {
-            this.DataSetName = "EsemkaEsportDataSet2";
+            this.DataSetName = "EsemkaEsportDataSet4";
             this.Prefix = "";
-            this.Namespace = "http://tempuri.org/EsemkaEsportDataSet2.xsd";
+            this.Namespace = "http://tempuri.org/EsemkaEsportDataSet4.xsd";
             this.EnforceConstraints = true;
             this.SchemaSerializationMode = global::System.Data.SchemaSerializationMode.IncludeSchema;
             this.tableteam = new teamDataTable();
@@ -225,7 +225,7 @@ namespace LKS_SA_AhmadIrwansyah {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedDataSetSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
-            EsemkaEsportDataSet2 ds = new EsemkaEsportDataSet2();
+            EsemkaEsportDataSet4 ds = new EsemkaEsportDataSet4();
             global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
             global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
             global::System.Xml.Schema.XmlSchemaAny any = new global::System.Xml.Schema.XmlSchemaAny();
@@ -491,7 +491,7 @@ namespace LKS_SA_AhmadIrwansyah {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                EsemkaEsportDataSet2 ds = new EsemkaEsportDataSet2();
+                EsemkaEsportDataSet4 ds = new EsemkaEsportDataSet4();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -622,7 +622,7 @@ namespace LKS_SA_AhmadIrwansyah {
         }
     }
 }
-namespace LKS_SA_AhmadIrwansyah.EsemkaEsportDataSet2TableAdapters {
+namespace LKS_SA_AhmadIrwansyah.EsemkaEsportDataSet4TableAdapters {
     
     
     /// <summary>
@@ -778,22 +778,18 @@ namespace LKS_SA_AhmadIrwansyah.EsemkaEsportDataSet2TableAdapters {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitCommandCollection() {
-            this._commandCollection = new global::System.Data.SqlClient.SqlCommand[2];
+            this._commandCollection = new global::System.Data.SqlClient.SqlCommand[1];
             this._commandCollection[0] = new global::System.Data.SqlClient.SqlCommand();
             this._commandCollection[0].Connection = this.Connection;
             this._commandCollection[0].CommandText = "SELECT id, team_name FROM dbo.team";
             this._commandCollection[0].CommandType = global::System.Data.CommandType.Text;
-            this._commandCollection[1] = new global::System.Data.SqlClient.SqlCommand();
-            this._commandCollection[1].Connection = this.Connection;
-            this._commandCollection[1].CommandText = "select t.id, t.team_name from team t, team_detail td where td.team_id=t.id";
-            this._commandCollection[1].CommandType = global::System.Data.CommandType.Text;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(EsemkaEsportDataSet2.teamDataTable dataTable) {
+        public virtual int Fill(EsemkaEsportDataSet4.teamDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -806,9 +802,9 @@ namespace LKS_SA_AhmadIrwansyah.EsemkaEsportDataSet2TableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual EsemkaEsportDataSet2.teamDataTable GetData() {
+        public virtual EsemkaEsportDataSet4.teamDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            EsemkaEsportDataSet2.teamDataTable dataTable = new EsemkaEsportDataSet2.teamDataTable();
+            EsemkaEsportDataSet4.teamDataTable dataTable = new EsemkaEsportDataSet4.teamDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -816,27 +812,14 @@ namespace LKS_SA_AhmadIrwansyah.EsemkaEsportDataSet2TableAdapters {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, false)]
-        public virtual int FillBy(EsemkaEsportDataSet2.teamDataTable dataTable) {
-            this.Adapter.SelectCommand = this.CommandCollection[1];
-            if ((this.ClearBeforeFill == true)) {
-                dataTable.Clear();
-            }
-            int returnValue = this.Adapter.Fill(dataTable);
-            return returnValue;
-        }
-        
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(EsemkaEsportDataSet2.teamDataTable dataTable) {
+        public virtual int Update(EsemkaEsportDataSet4.teamDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(EsemkaEsportDataSet2 dataSet) {
+        public virtual int Update(EsemkaEsportDataSet4 dataSet) {
             return this.Adapter.Update(dataSet, "team");
         }
         
@@ -1018,7 +1001,7 @@ namespace LKS_SA_AhmadIrwansyah.EsemkaEsportDataSet2TableAdapters {
         ///</summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        private int UpdateUpdatedRows(EsemkaEsportDataSet2 dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allChangedRows, global::System.Collections.Generic.List<global::System.Data.DataRow> allAddedRows) {
+        private int UpdateUpdatedRows(EsemkaEsportDataSet4 dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allChangedRows, global::System.Collections.Generic.List<global::System.Data.DataRow> allAddedRows) {
             int result = 0;
             if ((this._teamTableAdapter != null)) {
                 global::System.Data.DataRow[] updatedRows = dataSet.team.Select(null, null, global::System.Data.DataViewRowState.ModifiedCurrent);
@@ -1037,7 +1020,7 @@ namespace LKS_SA_AhmadIrwansyah.EsemkaEsportDataSet2TableAdapters {
         ///</summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        private int UpdateInsertedRows(EsemkaEsportDataSet2 dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allAddedRows) {
+        private int UpdateInsertedRows(EsemkaEsportDataSet4 dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allAddedRows) {
             int result = 0;
             if ((this._teamTableAdapter != null)) {
                 global::System.Data.DataRow[] addedRows = dataSet.team.Select(null, null, global::System.Data.DataViewRowState.Added);
@@ -1055,7 +1038,7 @@ namespace LKS_SA_AhmadIrwansyah.EsemkaEsportDataSet2TableAdapters {
         ///</summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        private int UpdateDeletedRows(EsemkaEsportDataSet2 dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allChangedRows) {
+        private int UpdateDeletedRows(EsemkaEsportDataSet4 dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allChangedRows) {
             int result = 0;
             if ((this._teamTableAdapter != null)) {
                 global::System.Data.DataRow[] deletedRows = dataSet.team.Select(null, null, global::System.Data.DataViewRowState.Deleted);
@@ -1097,7 +1080,7 @@ namespace LKS_SA_AhmadIrwansyah.EsemkaEsportDataSet2TableAdapters {
         ///</summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        public virtual int UpdateAll(EsemkaEsportDataSet2 dataSet) {
+        public virtual int UpdateAll(EsemkaEsportDataSet4 dataSet) {
             if ((dataSet == null)) {
                 throw new global::System.ArgumentNullException("dataSet");
             }

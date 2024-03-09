@@ -1,0 +1,383 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\zenbook\\source\\repos\\LKS_SA_AhmadIrwansyah\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C21B8A14-1732-4866-A124-290C70C35C69}|LKS_SA_AhmadIrwansyah\\LKS_SA_AhmadIrwansyah.csproj|C:\\Users\\zenbook\\source\\repos\\LKS_SA_AhmadIrwansyah\\lks_sa_ahmadirwansyah\\admin-transferplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C21B8A14-1732-4866-A124-290C70C35C69}|LKS_SA_AhmadIrwansyah\\LKS_SA_AhmadIrwansyah.csproj|solutionrelative:lks_sa_ahmadirwansyah\\admin-transferplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C21B8A14-1732-4866-A124-290C70C35C69}|LKS_SA_AhmadIrwansyah\\LKS_SA_AhmadIrwansyah.csproj|C:\\Users\\zenbook\\source\\repos\\LKS_SA_AhmadIrwansyah\\lks_sa_ahmadirwansyah\\admin-transferplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C21B8A14-1732-4866-A124-290C70C35C69}|LKS_SA_AhmadIrwansyah\\LKS_SA_AhmadIrwansyah.csproj|solutionrelative:lks_sa_ahmadirwansyah\\admin-transferplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C21B8A14-1732-4866-A124-290C70C35C69}|LKS_SA_AhmadIrwansyah\\LKS_SA_AhmadIrwansyah.csproj|c:\\users\\zenbook\\source\\repos\\lks_sa_ahmadirwansyah\\lks_sa_ahmadirwansyah\\tplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C21B8A14-1732-4866-A124-290C70C35C69}|LKS_SA_AhmadIrwansyah\\LKS_SA_AhmadIrwansyah.csproj|solutionrelative:lks_sa_ahmadirwansyah\\tplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C21B8A14-1732-4866-A124-290C70C35C69}|LKS_SA_AhmadIrwansyah\\LKS_SA_AhmadIrwansyah.csproj|C:\\Users\\zenbook\\source\\repos\\LKS_SA_AhmadIrwansyah\\lks_sa_ahmadirwansyah\\teamdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C21B8A14-1732-4866-A124-290C70C35C69}|LKS_SA_AhmadIrwansyah\\LKS_SA_AhmadIrwansyah.csproj|solutionrelative:lks_sa_ahmadirwansyah\\teamdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C21B8A14-1732-4866-A124-290C70C35C69}|LKS_SA_AhmadIrwansyah\\LKS_SA_AhmadIrwansyah.csproj|C:\\Users\\zenbook\\source\\repos\\LKS_SA_AhmadIrwansyah\\lks_sa_ahmadirwansyah\\admin-formteam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C21B8A14-1732-4866-A124-290C70C35C69}|LKS_SA_AhmadIrwansyah\\LKS_SA_AhmadIrwansyah.csproj|solutionrelative:lks_sa_ahmadirwansyah\\admin-formteam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C21B8A14-1732-4866-A124-290C70C35C69}|LKS_SA_AhmadIrwansyah\\LKS_SA_AhmadIrwansyah.csproj|C:\\Users\\zenbook\\source\\repos\\LKS_SA_AhmadIrwansyah\\lks_sa_ahmadirwansyah\\admin-addscheduleform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C21B8A14-1732-4866-A124-290C70C35C69}|LKS_SA_AhmadIrwansyah\\LKS_SA_AhmadIrwansyah.csproj|solutionrelative:lks_sa_ahmadirwansyah\\admin-addscheduleform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C21B8A14-1732-4866-A124-290C70C35C69}|LKS_SA_AhmadIrwansyah\\LKS_SA_AhmadIrwansyah.csproj|C:\\Users\\zenbook\\source\\repos\\LKS_SA_AhmadIrwansyah\\lks_sa_ahmadirwansyah\\admin-addscheduleform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C21B8A14-1732-4866-A124-290C70C35C69}|LKS_SA_AhmadIrwansyah\\LKS_SA_AhmadIrwansyah.csproj|solutionrelative:lks_sa_ahmadirwansyah\\admin-addscheduleform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C21B8A14-1732-4866-A124-290C70C35C69}|LKS_SA_AhmadIrwansyah\\LKS_SA_AhmadIrwansyah.csproj|c:\\users\\zenbook\\source\\repos\\lks_sa_ahmadirwansyah\\lks_sa_ahmadirwansyah\\admin-playerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C21B8A14-1732-4866-A124-290C70C35C69}|LKS_SA_AhmadIrwansyah\\LKS_SA_AhmadIrwansyah.csproj|solutionrelative:lks_sa_ahmadirwansyah\\admin-playerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C21B8A14-1732-4866-A124-290C70C35C69}|LKS_SA_AhmadIrwansyah\\LKS_SA_AhmadIrwansyah.csproj|C:\\Users\\zenbook\\source\\repos\\LKS_SA_AhmadIrwansyah\\lks_sa_ahmadirwansyah\\scheduledata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C21B8A14-1732-4866-A124-290C70C35C69}|LKS_SA_AhmadIrwansyah\\LKS_SA_AhmadIrwansyah.csproj|solutionrelative:lks_sa_ahmadirwansyah\\scheduledata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C21B8A14-1732-4866-A124-290C70C35C69}|LKS_SA_AhmadIrwansyah\\LKS_SA_AhmadIrwansyah.csproj|C:\\Users\\zenbook\\source\\repos\\LKS_SA_AhmadIrwansyah\\lks_sa_ahmadirwansyah\\customer-mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C21B8A14-1732-4866-A124-290C70C35C69}|LKS_SA_AhmadIrwansyah\\LKS_SA_AhmadIrwansyah.csproj|solutionrelative:lks_sa_ahmadirwansyah\\customer-mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C21B8A14-1732-4866-A124-290C70C35C69}|LKS_SA_AhmadIrwansyah\\LKS_SA_AhmadIrwansyah.csproj|C:\\Users\\zenbook\\source\\repos\\LKS_SA_AhmadIrwansyah\\lks_sa_ahmadirwansyah\\customer-mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C21B8A14-1732-4866-A124-290C70C35C69}|LKS_SA_AhmadIrwansyah\\LKS_SA_AhmadIrwansyah.csproj|solutionrelative:lks_sa_ahmadirwansyah\\customer-mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C21B8A14-1732-4866-A124-290C70C35C69}|LKS_SA_AhmadIrwansyah\\LKS_SA_AhmadIrwansyah.csproj|C:\\Users\\zenbook\\source\\repos\\LKS_SA_AhmadIrwansyah\\lks_sa_ahmadirwansyah\\admin-scheduleform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C21B8A14-1732-4866-A124-290C70C35C69}|LKS_SA_AhmadIrwansyah\\LKS_SA_AhmadIrwansyah.csproj|solutionrelative:lks_sa_ahmadirwansyah\\admin-scheduleform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C21B8A14-1732-4866-A124-290C70C35C69}|LKS_SA_AhmadIrwansyah\\LKS_SA_AhmadIrwansyah.csproj|C:\\Users\\zenbook\\source\\repos\\LKS_SA_AhmadIrwansyah\\lks_sa_ahmadirwansyah\\admin-scheduleform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C21B8A14-1732-4866-A124-290C70C35C69}|LKS_SA_AhmadIrwansyah\\LKS_SA_AhmadIrwansyah.csproj|solutionrelative:lks_sa_ahmadirwansyah\\admin-scheduleform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C21B8A14-1732-4866-A124-290C70C35C69}|LKS_SA_AhmadIrwansyah\\LKS_SA_AhmadIrwansyah.csproj|C:\\Users\\zenbook\\source\\repos\\LKS_SA_AhmadIrwansyah\\lks_sa_ahmadirwansyah\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C21B8A14-1732-4866-A124-290C70C35C69}|LKS_SA_AhmadIrwansyah\\LKS_SA_AhmadIrwansyah.csproj|solutionrelative:lks_sa_ahmadirwansyah\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C21B8A14-1732-4866-A124-290C70C35C69}|LKS_SA_AhmadIrwansyah\\LKS_SA_AhmadIrwansyah.csproj|c:\\users\\zenbook\\source\\repos\\lks_sa_ahmadirwansyah\\lks_sa_ahmadirwansyah\\customer-bookform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C21B8A14-1732-4866-A124-290C70C35C69}|LKS_SA_AhmadIrwansyah\\LKS_SA_AhmadIrwansyah.csproj|solutionrelative:lks_sa_ahmadirwansyah\\customer-bookform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C21B8A14-1732-4866-A124-290C70C35C69}|LKS_SA_AhmadIrwansyah\\LKS_SA_AhmadIrwansyah.csproj|c:\\users\\zenbook\\source\\repos\\lks_sa_ahmadirwansyah\\lks_sa_ahmadirwansyah\\customer-myticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C21B8A14-1732-4866-A124-290C70C35C69}|LKS_SA_AhmadIrwansyah\\LKS_SA_AhmadIrwansyah.csproj|solutionrelative:lks_sa_ahmadirwansyah\\customer-myticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C21B8A14-1732-4866-A124-290C70C35C69}|LKS_SA_AhmadIrwansyah\\LKS_SA_AhmadIrwansyah.csproj|c:\\users\\zenbook\\source\\repos\\lks_sa_ahmadirwansyah\\lks_sa_ahmadirwansyah\\customer-myticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C21B8A14-1732-4866-A124-290C70C35C69}|LKS_SA_AhmadIrwansyah\\LKS_SA_AhmadIrwansyah.csproj|solutionrelative:lks_sa_ahmadirwansyah\\customer-myticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C21B8A14-1732-4866-A124-290C70C35C69}|LKS_SA_AhmadIrwansyah\\LKS_SA_AhmadIrwansyah.csproj|c:\\users\\zenbook\\source\\repos\\lks_sa_ahmadirwansyah\\lks_sa_ahmadirwansyah\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C21B8A14-1732-4866-A124-290C70C35C69}|LKS_SA_AhmadIrwansyah\\LKS_SA_AhmadIrwansyah.csproj|solutionrelative:lks_sa_ahmadirwansyah\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C21B8A14-1732-4866-A124-290C70C35C69}|LKS_SA_AhmadIrwansyah\\LKS_SA_AhmadIrwansyah.csproj|C:\\Users\\zenbook\\source\\repos\\LKS_SA_AhmadIrwansyah\\lks_sa_ahmadirwansyah\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C21B8A14-1732-4866-A124-290C70C35C69}|LKS_SA_AhmadIrwansyah\\LKS_SA_AhmadIrwansyah.csproj|solutionrelative:lks_sa_ahmadirwansyah\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C21B8A14-1732-4866-A124-290C70C35C69}|LKS_SA_AhmadIrwansyah\\LKS_SA_AhmadIrwansyah.csproj|C:\\Users\\zenbook\\source\\repos\\LKS_SA_AhmadIrwansyah\\lks_sa_ahmadirwansyah\\admin-playerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C21B8A14-1732-4866-A124-290C70C35C69}|LKS_SA_AhmadIrwansyah\\LKS_SA_AhmadIrwansyah.csproj|solutionrelative:lks_sa_ahmadirwansyah\\admin-playerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C21B8A14-1732-4866-A124-290C70C35C69}|LKS_SA_AhmadIrwansyah\\LKS_SA_AhmadIrwansyah.csproj|C:\\Users\\zenbook\\source\\repos\\LKS_SA_AhmadIrwansyah\\lks_sa_ahmadirwansyah\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C21B8A14-1732-4866-A124-290C70C35C69}|LKS_SA_AhmadIrwansyah\\LKS_SA_AhmadIrwansyah.csproj|solutionrelative:lks_sa_ahmadirwansyah\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C21B8A14-1732-4866-A124-290C70C35C69}|LKS_SA_AhmadIrwansyah\\LKS_SA_AhmadIrwansyah.csproj|c:\\users\\zenbook\\source\\repos\\lks_sa_ahmadirwansyah\\lks_sa_ahmadirwansyah\\esemkaesportdataset6.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
+      "RelativeMoniker": "D:0:0:{C21B8A14-1732-4866-A124-290C70C35C69}|LKS_SA_AhmadIrwansyah\\LKS_SA_AhmadIrwansyah.csproj|solutionrelative:lks_sa_ahmadirwansyah\\esemkaesportdataset6.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TPlayer.cs",
+              "DocumentMoniker": "C:\\Users\\zenbook\\source\\repos\\LKS_SA_AhmadIrwansyah\\LKS_SA_AhmadIrwansyah\\TPlayer.cs",
+              "RelativeDocumentMoniker": "LKS_SA_AhmadIrwansyah\\TPlayer.cs",
+              "ToolTip": "C:\\Users\\zenbook\\source\\repos\\LKS_SA_AhmadIrwansyah\\LKS_SA_AhmadIrwansyah\\TPlayer.cs",
+              "RelativeToolTip": "LKS_SA_AhmadIrwansyah\\TPlayer.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAuwCcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-09T03:47:02.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Admin-TransferPlayer.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\zenbook\\source\\repos\\LKS_SA_AhmadIrwansyah\\LKS_SA_AhmadIrwansyah\\Admin-TransferPlayer.cs",
+              "RelativeDocumentMoniker": "LKS_SA_AhmadIrwansyah\\Admin-TransferPlayer.cs",
+              "ToolTip": "C:\\Users\\zenbook\\source\\repos\\LKS_SA_AhmadIrwansyah\\LKS_SA_AhmadIrwansyah\\Admin-TransferPlayer.cs [Design]",
+              "RelativeToolTip": "LKS_SA_AhmadIrwansyah\\Admin-TransferPlayer.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-29T08:55:18.405Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Admin-TransferPlayer.cs",
+              "DocumentMoniker": "C:\\Users\\zenbook\\source\\repos\\LKS_SA_AhmadIrwansyah\\LKS_SA_AhmadIrwansyah\\Admin-TransferPlayer.cs",
+              "RelativeDocumentMoniker": "LKS_SA_AhmadIrwansyah\\Admin-TransferPlayer.cs",
+              "ToolTip": "C:\\Users\\zenbook\\source\\repos\\LKS_SA_AhmadIrwansyah\\LKS_SA_AhmadIrwansyah\\Admin-TransferPlayer.cs",
+              "RelativeToolTip": "LKS_SA_AhmadIrwansyah\\Admin-TransferPlayer.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAIwCIAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-29T08:55:21.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Admin-FormTeam.cs",
+              "DocumentMoniker": "C:\\Users\\zenbook\\source\\repos\\LKS_SA_AhmadIrwansyah\\LKS_SA_AhmadIrwansyah\\Admin-FormTeam.cs",
+              "RelativeDocumentMoniker": "LKS_SA_AhmadIrwansyah\\Admin-FormTeam.cs",
+              "ToolTip": "C:\\Users\\zenbook\\source\\repos\\LKS_SA_AhmadIrwansyah\\LKS_SA_AhmadIrwansyah\\Admin-FormTeam.cs",
+              "RelativeToolTip": "LKS_SA_AhmadIrwansyah\\Admin-FormTeam.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABQAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-29T08:53:12.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TeamData.cs",
+              "DocumentMoniker": "C:\\Users\\zenbook\\source\\repos\\LKS_SA_AhmadIrwansyah\\LKS_SA_AhmadIrwansyah\\TeamData.cs",
+              "RelativeDocumentMoniker": "LKS_SA_AhmadIrwansyah\\TeamData.cs",
+              "ToolTip": "C:\\Users\\zenbook\\source\\repos\\LKS_SA_AhmadIrwansyah\\LKS_SA_AhmadIrwansyah\\TeamData.cs",
+              "RelativeToolTip": "LKS_SA_AhmadIrwansyah\\TeamData.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAgwCgAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T07:46:42.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Admin-AddScheduleForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\zenbook\\source\\repos\\LKS_SA_AhmadIrwansyah\\LKS_SA_AhmadIrwansyah\\Admin-AddScheduleForm.cs",
+              "RelativeDocumentMoniker": "LKS_SA_AhmadIrwansyah\\Admin-AddScheduleForm.cs",
+              "ToolTip": "C:\\Users\\zenbook\\source\\repos\\LKS_SA_AhmadIrwansyah\\LKS_SA_AhmadIrwansyah\\Admin-AddScheduleForm.cs [Design]",
+              "RelativeToolTip": "LKS_SA_AhmadIrwansyah\\Admin-AddScheduleForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T02:12:35.358Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Admin-AddScheduleForm.cs",
+              "DocumentMoniker": "C:\\Users\\zenbook\\source\\repos\\LKS_SA_AhmadIrwansyah\\LKS_SA_AhmadIrwansyah\\Admin-AddScheduleForm.cs",
+              "RelativeDocumentMoniker": "LKS_SA_AhmadIrwansyah\\Admin-AddScheduleForm.cs",
+              "ToolTip": "C:\\Users\\zenbook\\source\\repos\\LKS_SA_AhmadIrwansyah\\LKS_SA_AhmadIrwansyah\\Admin-AddScheduleForm.cs",
+              "RelativeToolTip": "LKS_SA_AhmadIrwansyah\\Admin-AddScheduleForm.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAuwDsAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T02:20:04.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "EsemkaEsportDataSet6.xsd",
+              "DocumentMoniker": "C:\\Users\\zenbook\\source\\repos\\LKS_SA_AhmadIrwansyah\\LKS_SA_AhmadIrwansyah\\EsemkaEsportDataSet6.xsd",
+              "RelativeDocumentMoniker": "LKS_SA_AhmadIrwansyah\\EsemkaEsportDataSet6.xsd",
+              "ToolTip": "C:\\Users\\zenbook\\source\\repos\\LKS_SA_AhmadIrwansyah\\LKS_SA_AhmadIrwansyah\\EsemkaEsportDataSet6.xsd*",
+              "RelativeToolTip": "LKS_SA_AhmadIrwansyah\\EsemkaEsportDataSet6.xsd*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
+              "WhenOpened": "2024-03-09T03:15:59.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Admin-PlayerForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\zenbook\\source\\repos\\LKS_SA_AhmadIrwansyah\\LKS_SA_AhmadIrwansyah\\Admin-PlayerForm.cs",
+              "RelativeDocumentMoniker": "LKS_SA_AhmadIrwansyah\\Admin-PlayerForm.cs",
+              "ToolTip": "C:\\Users\\zenbook\\source\\repos\\LKS_SA_AhmadIrwansyah\\LKS_SA_AhmadIrwansyah\\Admin-PlayerForm.cs [Design]",
+              "RelativeToolTip": "LKS_SA_AhmadIrwansyah\\Admin-PlayerForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-09T03:07:26.175Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ScheduleData.cs",
+              "DocumentMoniker": "C:\\Users\\zenbook\\source\\repos\\LKS_SA_AhmadIrwansyah\\LKS_SA_AhmadIrwansyah\\ScheduleData.cs",
+              "RelativeDocumentMoniker": "LKS_SA_AhmadIrwansyah\\ScheduleData.cs",
+              "ToolTip": "C:\\Users\\zenbook\\source\\repos\\LKS_SA_AhmadIrwansyah\\LKS_SA_AhmadIrwansyah\\ScheduleData.cs",
+              "RelativeToolTip": "LKS_SA_AhmadIrwansyah\\ScheduleData.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAcwBIAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T02:27:37.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Customer-MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\zenbook\\source\\repos\\LKS_SA_AhmadIrwansyah\\LKS_SA_AhmadIrwansyah\\Customer-MainForm.cs",
+              "RelativeDocumentMoniker": "LKS_SA_AhmadIrwansyah\\Customer-MainForm.cs",
+              "ToolTip": "C:\\Users\\zenbook\\source\\repos\\LKS_SA_AhmadIrwansyah\\LKS_SA_AhmadIrwansyah\\Customer-MainForm.cs",
+              "RelativeToolTip": "LKS_SA_AhmadIrwansyah\\Customer-MainForm.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwDsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-29T09:06:23.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Customer-MainForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\zenbook\\source\\repos\\LKS_SA_AhmadIrwansyah\\LKS_SA_AhmadIrwansyah\\Customer-MainForm.cs",
+              "RelativeDocumentMoniker": "LKS_SA_AhmadIrwansyah\\Customer-MainForm.cs",
+              "ToolTip": "C:\\Users\\zenbook\\source\\repos\\LKS_SA_AhmadIrwansyah\\LKS_SA_AhmadIrwansyah\\Customer-MainForm.cs [Design]",
+              "RelativeToolTip": "LKS_SA_AhmadIrwansyah\\Customer-MainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-29T09:02:02.733Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Admin-ScheduleForm.cs",
+              "DocumentMoniker": "C:\\Users\\zenbook\\source\\repos\\LKS_SA_AhmadIrwansyah\\LKS_SA_AhmadIrwansyah\\Admin-ScheduleForm.cs",
+              "RelativeDocumentMoniker": "LKS_SA_AhmadIrwansyah\\Admin-ScheduleForm.cs",
+              "ToolTip": "C:\\Users\\zenbook\\source\\repos\\LKS_SA_AhmadIrwansyah\\LKS_SA_AhmadIrwansyah\\Admin-ScheduleForm.cs",
+              "RelativeToolTip": "LKS_SA_AhmadIrwansyah\\Admin-ScheduleForm.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAlwCEAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T02:07:36.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Admin-ScheduleForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\zenbook\\source\\repos\\LKS_SA_AhmadIrwansyah\\LKS_SA_AhmadIrwansyah\\Admin-ScheduleForm.cs",
+              "RelativeDocumentMoniker": "LKS_SA_AhmadIrwansyah\\Admin-ScheduleForm.cs",
+              "ToolTip": "C:\\Users\\zenbook\\source\\repos\\LKS_SA_AhmadIrwansyah\\LKS_SA_AhmadIrwansyah\\Admin-ScheduleForm.cs [Design]",
+              "RelativeToolTip": "LKS_SA_AhmadIrwansyah\\Admin-ScheduleForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T01:48:54.441Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Register.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\zenbook\\source\\repos\\LKS_SA_AhmadIrwansyah\\LKS_SA_AhmadIrwansyah\\Register.cs",
+              "RelativeDocumentMoniker": "LKS_SA_AhmadIrwansyah\\Register.cs",
+              "ToolTip": "C:\\Users\\zenbook\\source\\repos\\LKS_SA_AhmadIrwansyah\\LKS_SA_AhmadIrwansyah\\Register.cs [Design]",
+              "RelativeToolTip": "LKS_SA_AhmadIrwansyah\\Register.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-29T02:22:30.707Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Customer-BookForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\zenbook\\source\\repos\\LKS_SA_AhmadIrwansyah\\LKS_SA_AhmadIrwansyah\\Customer-BookForm.cs",
+              "RelativeDocumentMoniker": "LKS_SA_AhmadIrwansyah\\Customer-BookForm.cs",
+              "ToolTip": "C:\\Users\\zenbook\\source\\repos\\LKS_SA_AhmadIrwansyah\\LKS_SA_AhmadIrwansyah\\Customer-BookForm.cs [Design]",
+              "RelativeToolTip": "LKS_SA_AhmadIrwansyah\\Customer-BookForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-09T01:23:31.969Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Customer-MyTicket.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\zenbook\\source\\repos\\LKS_SA_AhmadIrwansyah\\LKS_SA_AhmadIrwansyah\\Customer-MyTicket.cs",
+              "RelativeDocumentMoniker": "LKS_SA_AhmadIrwansyah\\Customer-MyTicket.cs",
+              "ToolTip": "C:\\Users\\zenbook\\source\\repos\\LKS_SA_AhmadIrwansyah\\LKS_SA_AhmadIrwansyah\\Customer-MyTicket.cs [Design]",
+              "RelativeToolTip": "LKS_SA_AhmadIrwansyah\\Customer-MyTicket.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-09T01:10:57.556Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Customer-MyTicket.cs",
+              "DocumentMoniker": "C:\\Users\\zenbook\\source\\repos\\LKS_SA_AhmadIrwansyah\\LKS_SA_AhmadIrwansyah\\Customer-MyTicket.cs",
+              "RelativeDocumentMoniker": "LKS_SA_AhmadIrwansyah\\Customer-MyTicket.cs",
+              "ToolTip": "C:\\Users\\zenbook\\source\\repos\\LKS_SA_AhmadIrwansyah\\LKS_SA_AhmadIrwansyah\\Customer-MyTicket.cs",
+              "RelativeToolTip": "LKS_SA_AhmadIrwansyah\\Customer-MyTicket.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-09T01:11:40.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\zenbook\\source\\repos\\LKS_SA_AhmadIrwansyah\\LKS_SA_AhmadIrwansyah\\Form1.cs",
+              "RelativeDocumentMoniker": "LKS_SA_AhmadIrwansyah\\Form1.cs",
+              "ToolTip": "C:\\Users\\zenbook\\source\\repos\\LKS_SA_AhmadIrwansyah\\LKS_SA_AhmadIrwansyah\\Form1.cs",
+              "RelativeToolTip": "LKS_SA_AhmadIrwansyah\\Form1.cs",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAgwFEAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T08:13:08.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\zenbook\\source\\repos\\LKS_SA_AhmadIrwansyah\\LKS_SA_AhmadIrwansyah\\Form1.cs",
+              "RelativeDocumentMoniker": "LKS_SA_AhmadIrwansyah\\Form1.cs",
+              "ToolTip": "C:\\Users\\zenbook\\source\\repos\\LKS_SA_AhmadIrwansyah\\LKS_SA_AhmadIrwansyah\\Form1.cs [Design]",
+              "RelativeToolTip": "LKS_SA_AhmadIrwansyah\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-29T02:03:59.419Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Admin-PlayerForm.cs",
+              "DocumentMoniker": "C:\\Users\\zenbook\\source\\repos\\LKS_SA_AhmadIrwansyah\\LKS_SA_AhmadIrwansyah\\Admin-PlayerForm.cs",
+              "RelativeDocumentMoniker": "LKS_SA_AhmadIrwansyah\\Admin-PlayerForm.cs",
+              "ToolTip": "C:\\Users\\zenbook\\source\\repos\\LKS_SA_AhmadIrwansyah\\LKS_SA_AhmadIrwansyah\\Admin-PlayerForm.cs",
+              "RelativeToolTip": "LKS_SA_AhmadIrwansyah\\Admin-PlayerForm.cs",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAwwFYAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-29T08:56:03.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\zenbook\\source\\repos\\LKS_SA_AhmadIrwansyah\\LKS_SA_AhmadIrwansyah\\Program.cs",
+              "RelativeDocumentMoniker": "LKS_SA_AhmadIrwansyah\\Program.cs",
+              "ToolTip": "C:\\Users\\zenbook\\source\\repos\\LKS_SA_AhmadIrwansyah\\LKS_SA_AhmadIrwansyah\\Program.cs",
+              "RelativeToolTip": "LKS_SA_AhmadIrwansyah\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-29T09:03:31.419Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

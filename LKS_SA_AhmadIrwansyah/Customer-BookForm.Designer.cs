@@ -1,6 +1,6 @@
 ﻿namespace LKS_SA_AhmadIrwansyah
 {
-    partial class BookForm
+    partial class Customer_BookForm
     {
         /// <summary>
         /// Required designer variable.
@@ -186,7 +186,7 @@
             this.label2.TabIndex = 15;
             this.label2.Text = "Remaining : ";
             // 
-            // BookForm
+            // Customer_BookForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -205,7 +205,7 @@
             this.Controls.Add(this.NS_1);
             this.Controls.Add(this.button_back);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "BookForm";
+            this.Name = "Customer_BookForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "BookForm";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

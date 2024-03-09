@@ -42,14 +42,16 @@ namespace LKS_SA_AhmadIrwansyah
                         using (SqlCommand cmd = new SqlCommand(insertData, con))
                         {
 
-                            cmd.Parameters.AddWithValue("@home", comboBox1);
-                            cmd.Parameters.AddWithValue("@away", comboBox2);
+                            cmd.Parameters.AddWithValue("@home", comboBox1.SelectedValue);
+                            cmd.Parameters.AddWithValue("@away", comboBox2.SelectedValue);
                             cmd.Parameters.AddWithValue("@time", dateTimePicker1.Text);
                             cmd.Parameters.AddWithValue("@created", today);
                             cmd.ExecuteNonQuery();
 
                             MessageBox.Show("Added Successfully!", "Information Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
+                            Admin_ScheduleForm sf = new Admin_ScheduleForm();
+                            sf.Show();
+                            this.Hide();
                         }
                     }
                     catch(Exception ex)
@@ -79,6 +81,19 @@ namespace LKS_SA_AhmadIrwansyah
             this.teamTableAdapter1.Fill(this.esemkaEsportDataSet1.team);
             // TODO: This line of code loads data into the 'esemkaEsportDataSet.team' table. You can move, or remove it, as needed.
             this.teamTableAdapter.Fill(this.esemkaEsportDataSet.team);
+
+        }
+
+        private void fillByToolStripButton_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                this.teamTableAdapter2.FillBy(this.esemkaEsportDataSet2.team);
+            }
+            catch (System.Exception ex)
+            {
+                System.Windows.Forms.MessageBox.Show(ex.Message);
+            }
 
         }
     }

@@ -109,6 +109,26 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>EsemkaEsportDataSet2.xsd</DependentUpon>
     </Compile>
+    <Compile Include="EsemkaEsportDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EsemkaEsportDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EsemkaEsportDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EsemkaEsportDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EsemkaEsportDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EsemkaEsportDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EsemkaEsportDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EsemkaEsportDataSet6.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -126,6 +146,7 @@
     </Compile>
     <Compile Include="ScheduleData.cs" />
     <Compile Include="TeamData.cs" />
+    <Compile Include="TPlayer.cs" />
     <EmbeddedResource Include="Admin-AddScheduleForm.resx">
       <DependentUpon>Admin-AddScheduleForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -198,6 +219,50 @@
     </None>
     <None Include="EsemkaEsportDataSet2.xss">
       <DependentUpon>EsemkaEsportDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="EsemkaEsportDataSet3.xsc">
+      <DependentUpon>EsemkaEsportDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="EsemkaEsportDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EsemkaEsportDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EsemkaEsportDataSet3.xss">
+      <DependentUpon>EsemkaEsportDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="EsemkaEsportDataSet4.xsc">
+      <DependentUpon>EsemkaEsportDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="EsemkaEsportDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EsemkaEsportDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EsemkaEsportDataSet4.xss">
+      <DependentUpon>EsemkaEsportDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="EsemkaEsportDataSet5.xsc">
+      <DependentUpon>EsemkaEsportDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="EsemkaEsportDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EsemkaEsportDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EsemkaEsportDataSet5.xss">
+      <DependentUpon>EsemkaEsportDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="EsemkaEsportDataSet6.xsc">
+      <DependentUpon>EsemkaEsportDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="EsemkaEsportDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EsemkaEsportDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EsemkaEsportDataSet6.xss">
+      <DependentUpon>EsemkaEsportDataSet6.xsd</DependentUpon>
     </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

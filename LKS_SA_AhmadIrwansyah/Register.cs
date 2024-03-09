@@ -43,6 +43,12 @@ namespace LKS_SA_AhmadIrwansyah
                 textBox_Password.Text = "";
                 textBox_repass.Text = "";
             }
+            else if (textBox_Password.TextLength < 6)
+            {
+                MessageBox.Show("Password minimal 6 karakter", "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                textBox_Password.Text = "";
+                textBox_repass.Text = "";
+            }
             else
             {
                 if (con.State == ConnectionState.Closed)
@@ -50,13 +56,11 @@ namespace LKS_SA_AhmadIrwansyah
                     try
                     {
                         con.Open();
-
                         string selectUser = "SELECT COUNT(id) FROM pengguna WHERE username = @user";
                         using (SqlCommand user = new SqlCommand(selectUser, con))
                         {
                             user.Parameters.AddWithValue("@user", textBox_Username.Text.Trim());
                             int count = (int)user.ExecuteScalar();
-
                             if (count >= 1)
                             {
                                 MessageBox.Show("Username " + textBox_Username.Text + " telah digunakan, gunakan username lain", "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -67,7 +71,6 @@ namespace LKS_SA_AhmadIrwansyah
                             else
                             {
                                 DateTime today = DateTime.Now;
-
                                 string jk = "";
                                 if (radioButton1.Checked == true)
                                 {
@@ -87,9 +90,7 @@ namespace LKS_SA_AhmadIrwansyah
                                     insert.Parameters.AddWithValue("@gender", jk);
                                     insert.Parameters.AddWithValue("@role", 1);
                                     insert.Parameters.AddWithValue("@created_at", today);
-
                                     insert.ExecuteNonQuery();
-
                                     MessageBox.Show("Akun berhasil diregistrasi", "Information Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
                                     LoginForm login = new LoginForm();
                                     login.Show();
